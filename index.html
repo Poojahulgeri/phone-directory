@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Phone Directory</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="heading">
+        PHONE DIRECTORY
+    </div>
+    <button class="add-button" onclick="handleAddButtonClick()" >
+        ADD
+    </button>
+    <button class="back" style="display:none" onclick="handleBackButtonClick()">
+        Back
+    </button>
+    <div class="form" style="display:none">
+            <form>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input id="name" type="text"></input>
+                    <br>
+                    <label for="number">Number:</label>
+                    <br>
+                    <input type="text" id="number">
+                    <br>
+                    <button class="add-button" id="add-button-in-form" type="button" onclick="addContact()" >
+                            ADD
+                        </button>
+                </form>
+    </div>
+    <div class="contact-table">
+
+    </div>
+    <script>
+        showContactTable();
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.heading {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 52px;
+    width: 100%
+}
+
+.back {
+    margin: 20px;
+    font-size: medium;
+    background-color: white;
+}
+.add-button {
+    background-color: #61e461;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 30px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+.delete {
+    background-color: #f96799;
+    cursor: pointer;
+}
+table,td,th {
+    border: 1px solid black;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
